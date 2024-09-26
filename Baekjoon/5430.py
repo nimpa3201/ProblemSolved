@@ -49,4 +49,6 @@ for _ in range(T):
             print("[" + ",".join(map(str, intArr)) + "]")
         else:
             print("[" + ",".join(map(str, intArr)) + "]")
+            
+# https://www.acmicpc.net/problem/5430 AC
         
