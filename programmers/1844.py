@@ -15,7 +15,6 @@ def solution(maps):
         if x ==n-1 and y == m-1:
             return ans
         
-        
         for i in range(4):
             nx = x + dirs[i][0]
             ny = y + dirs[i][1]
@@ -24,12 +23,7 @@ def solution(maps):
                 visited[nx][ny] =1
     return -1
     
-    
-    
-   
-
-
-
-
 print(solution([[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,1],[0,0,0,0,1]]))	#11
 print(solution([[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,0],[0,0,0,0,1]]))	#-1
+
+#https://school.programmers.co.kr/learn/courses/30/lessons/1844 게임 맵 최단거리 level2
