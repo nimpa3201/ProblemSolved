@@ -15,3 +15,4 @@ else:
         if scores[i] == score:
             print(i+1)
             break
+#https://www.acmicpc.net/problem/1205 등수 구하기
