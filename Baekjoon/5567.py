@@ -18,13 +18,16 @@ def bfs():
         x = q.popleft()
         for nx in graph[x]:
             if not visited[nx] :
-                q.append(nx)
                 visited[nx] = visited[x]+1
+                q.append(nx)
                 if 2<=visited[nx]<=3:
                     ans+=1
-    return ans
-            
+                else:
+                    break
+    return ans            
 print(bfs())
+
+# https://www.acmicpc.net/problem/5567 결혼식
            
     
     
